@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color:midnightblue;
+    
+}
+
+h2{
+    background-color:cadetblue;
+    margin: 5% 0% 0% 0%;
+}
+
+h3{
+    margin: 5% 2% 0% 3%;
+}
+
+h4{
+    margin: 5% 0% 0% 0%;
+    background-color: cadetblue;
+}
+
+img{
+    margin: 2% 2% 0% 10%;
+}
+
+p{
+    margin: 1% 1% 1% 1%;
+}
+
+div{
+
+}

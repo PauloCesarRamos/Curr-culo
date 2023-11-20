@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        body{
+            translate;
+        }
+    </style>
+</head>
+
+<body class="p-5 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+    <h1 class="p-3 text-center">Formulário de Cadastro</h1>
+    <div class="container-fluid row flex border border-dark p-5 my-5 text-dark">
+        <form action="">                   
+                
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <label for="" class="p-2">Nome</label>
+                    <input class="form-control form-text" type="text" name="nome" id="nome" placeholder="Digite o nome...">
+                </div>
+
+                <div>
+                    <label for="" class="p-2">Gênero</label><br>
+                    <label for="">
+                        <input type="radio" name="genero" value="masculino">Masculino
+                    </label>
+                    <label for="">
+                        <input type="radio" name="genero" value="feminino">feminino
+                    </label>
+                    <label for="">
+                        <input type="radio" name="genero" value="neutro">Neutro
+                    </label>
+                    <label for="">
+                        <input type="radio" name="genero" value="nao_declarado" checked>Não declarado
+                    </label>                
+                </div>
+
+                <div>
+                    <label for="" class="p-2">Data de nascimento</label>
+                    <input class="form-control form-text" type="date" name="nascimento" id="nascimento">
+
+                </div>
+
+                <div>
+                    <label for="" class="p-2">Escolaridade</label>
+                    <select class="form-control form-text" name="escolaridade" id="escolaridade">
+                        <option value="selecione">Selecione...</option>
+                        <option value="ensino_fundamental">Ensino fundamental</option>
+                        <option value="ensino_medio">Ensino médio</option>
+                        <option value="ensino_superior">Ensino superior</option>
+                        <option value="pos_graduacao">Pós-graduação</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="" class="p-2">Profissão</label>
+                    <input class="form-control form-text" type="text" name="profissao" id="profissao" placeholder="Digite a profissão...">
+                </div>       
+
+                <div>
+                    <label for="rendafamiliar" class="p-2">Renda Familiar</label>
+                    <input type="number" format="currency" precision="2" id="rendafamiliar" name="rendafamiliar" class="form-control form-text" formControlName="rendafamiliar" placeholder="Informe a renda bruta da família..." />
+                </div>       
+
+                <div>
+                    <label for="" class="p-2">Quantidade de pessoas na família</label>
+                    <input class="form-control form-text" type="number" name="QtdeFamilia" id="QtdeFamilia" placeholder="Informe o número de pessoas da família...">
+                </div>       
+                
+                <div class="row">
+                        <label for="" class="p-2">Hobbies</label><br>
+                    <div class="col-6">
+                        <input type="checkbox" name="hobbies1" id="hobbies1" value="danca">
+                        <label for="hobbies1">Dançar</label><br>
+                        <input type="checkbox" name="hobbies2" id="hobbies2" value="esporte">
+                        <label for="hobbies2">Praticar esporte</label><br>
+                        <input type="checkbox" name="hobbies3" id="hobbies3" value="tv_cinema">
+                        <label for="hobbies3">Assistir TV e cinema</label><br>
+                        <input type="checkbox" name="hobbies4" id="hobbies4" value="viajar">
+                        <label for="hobbies4">Viajar</label><br>
+                        <input type="checkbox" name="hobbies5" id="hobbies5" value="confraternizar">
+                        <label for="hobbies5">Reunir com amigos</label><br>
+                    </div>
+                    <div class="col-6">
+                        <input type="checkbox" name="hobbies6" id="hobbies6" value="artes">
+                        <label for="hobbies6">Criar artes</label><br>
+                        <input type="checkbox" name="hobbies7" id="hobbies7" value="musica">
+                        <label for="hobbies7">Cantar e ouvir músicas</label><br>
+                        <input type="checkbox" name="hobbies8" id="hobbies8" value="religiao">
+                        <label for="hobbies8">Praticar religião</label><br>
+                        <input type="checkbox" name="hobbies9" id="hobbies9" value="politica">
+                        <label for="hobbies9">Participar de projetos políticos</label>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-6">
+
+                <div>
+                    <label for="" class="p-2">Endereço</label>
+                    <input class="form-control form-text" type="text" name="endereco" id="endereco" placeholder="Digite o endereço...">
+                </div>
+
+                <div>
+                    <label for="" class="p-2">CEP</label>
+                    <input class="form-control form-text" type="cep" name="CEP" id="CEP" placeholder="Digite o CEP...">
+                </div>
+
+                <div>
+                    <label for="" class="p-2">Telefone</label>
+                    <input class="form-control form-text" type="tel" name="telefone" id="telefone" placeholder="Digite o telefone..">
+                </div>
+
+                <div>
+                    <label for="" class="p-2">E-mail</label>
+                    <input class="form-control form-text" type="email" name="email" id="email" placeholder="Digite o E-mail..">
+                </div>
+
+                <div>
+                    <label for="comentarios btn-sm" class="container p-2">Comentários</label>
+                    <textarea name="comentarios" id="comentarios" cols="78" rows="5"></textarea>
+                </div>
+
+                <p></p>
+
+                <div class="input-group p-2">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                </div>
+
+
+            </div><p></p>
+
+            <div class="container p-5 text-center">
+                <button type="button" class="btn btn-success medio">Salvar</button>     
+            </div>
+
+        </div>        
+
+        </form>
+    </div>
+</body>
+</html>

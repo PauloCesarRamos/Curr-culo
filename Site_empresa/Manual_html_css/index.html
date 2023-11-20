@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="manual.css">
+    <title>Manual HTML_CSS</title>
+</head>
+<body>
+    <h1>MANUAL SIMPLIFICADO DE ESTRUTURAÇÃO DE PÁGINA WEB UTILIZANDO AS LINGUAGENS: “HTML” E “CSS”</h1>
+        
+    <div>
+    <h2>1 - Linguagem HTML</h2>           
+            <h3>Definição de HTML</h3>
+            <p>HTML (HyperText Markup Language), linguagem de marcação de hipertexto padrão para estruturar página web e seu conteúdo, que consiste numa série de elementos (tags + conteúdo), que informam ao navegador web como o conteúdo deve ser exibido, rotulando-os como “título”, “parágrafo”, “link”, etc.</p>
+        <h3>Definição de HTML </h3>
+                <img src="Assets/Imagens/HTML_Documento_Simples.png" alt="quadro com elementos simples HTML">
+        <h3>Elemento HTML</h3>
+            <p>Elemento é tudo desde a tag inicial até a tag final. Exemplo: “< tagname >” O conteúdo vai aqui... “< /tagname >”
+                Elemento vazio é aquele que não possui conteúdo. Exemplo: “< br >”</p>
+        <h3>Navegador da WEB</h3>
+            <p>O navegador (Chrome, Edge, Firefox, Safari) tem a função de ler e exibir corretamente documentos HTML.</p>
+                <img src="Assets/Imagens/HTML_Navegador_WEB.png" alt="exemplo de página no navegador web">
+        <h3>Estrutura da página HTML</h3>
+                <img src="Assets/Imagens/HTML_Estrutura_HTML.png" alt="Estrutura da página HTML">
+            <p>O conteúdo da seção < body > será exibido no navegador.</p>
+        <h3>Ver e inspecionar o código-fonte HTML </h3>
+            <p>Clicar no botão direito do mouse e selecionar “exibir código-fonte da página” ou opção similar e também poderá escolher inspecionar para verificar de quais elementos são feitos, podendo editar dinamicamente o HTML, bem como o CSS da página.</p>
+        <h3>Elementos HTML aninhados</h3>
+            <p>Os elementos podem conter outros elementos, isso se chama aninhamento. No exemplo abaixo, o < html > contem < body > que contem < h1 > e < p >.</p>
+                <img src="Assets/Imagens/HTML_Elementos_aninhados.png" alt="exemplo de elementos aninhados">
+        <h3>Grafia das tags</h3>
+            <p>As tags podem ser maiúsculas ou minúsculas (< p > ou < P >), porem o padrão recomentado é letra minúscula.</p>
+        <h3>Atributos HTML</h3>
+            <p>Atributos são permitidos a todos os elementos, com função de lhe fornecerem informações adicionais. São sempre especificados na tag inicial, geralmente em pares (nome=”valor”).</p>
+        <h3>Atributo href</h3>
+            <p>A tag < a > define um hiperlink. O atributo href especifica o URL da página para a qual o link leva:</p>
+                <img src="Assets/Imagens/HTML_Atributo_href.png" alt="exemplo do atributo href">
+        <h3>Atributo src</h3>
+            <p>A tag < img > é usada para incorporar uma imagem em uma página HTML. O src atributo especifica o caminho para a imagem a ser exibida, podendo ser externa ou hospedada no próprio site.</p>
+                <img src="Assets/Imagens/HTML_Atributo_src.png" alt="exemplo de tag src">
+            <p>URL absoluta – links para imagem externa, de outro site (exemplo: src="https://www.w3schools.com/images/img_girl.jpg"). Para esse tipo deve haver cuidado quanto a direitos autorais ou remoção ou alterações repentinas do site.</p>
+            <p>URL relativo – links para uma imagem hospedada no site (exemplo: src="/images/img_girl.jpg"). Este tipo de URL é o mais recomendável, sempre que possível, pois não serão quebrados se mudar o domínio.</p>
+        <h3>Atributo de largura</h3>
+            <p>A tag < img > deve conter também os atributos width e height, que correspondem à largura e altura da imagem (em pixels).</p>
+                <img src="Assets/Imagens/HTML_Atributo_largura.png" alt="exemplo de atributo imagem, com definição de largura e alltura">
+        <h3>Atributo alternativo</h3>
+            <p>O atributo obrigatório “alt” para a tag < img > especifica um texto alternativo para uma imagem, se a imagem por algum motivo não puder ser exibida, causado por conexão lenta, erro no “src” atributo ou no caso utilização de leitor de tela pelo usuário.</p>
+                <img src="Assets/Imagens/HTML_Atributo_alternativo.png" alt="exemplo de texto alternativo à imagem">
+        <h3>Atributo de estilo</h3>
+            <p>O atributo “style” adiciona estilos a um elemento (cor, fonte, tamanho e muito mais)</p>
+                <img src="Assets/Imagens/HTML_Atributo_estilo.png" alt="exemplo de estilos a um elemento">
+        <h3>Atributo lang</h3>
+            <p>O atributo < lang > é obrigatório para declaração do idioma da página, para ajudar os mecanismos de pesquisa e navegadores.</p>
+                <img src="Assets/Imagens/HTML_Atributo_lang.png" alt="exemplo de tag html com atributo lang">
+        <h3>Atributo do título</h3>
+            <p>O atributo < title > define algumas informações extras sobre o elemento. Será exibido como um dica de ferramenta quanto você passar o mouse sobre o elemento.</p>
+                <img src="Assets/Imagens/HTML_Atributo_título.png" alt="exemplo de atributo ao título.">
+        <h3>Observações sobre atributos:</h3>
+            <p>1 - utilizar sempre atributos em minúsculas</p>        
+            <p>2 - utilizar aspas para citações, pois em algumas vezes é necessário.</p>
+                <img src="Assets/Imagens/HTML_Obs_aspas_letrasMinusculas.png" alt="exemplos de atributos com letras minusculas e aspas para citações.">  
+            <p>3 - as aspas poderão ser simples ou duplas, sendo estas as mais usadas.</p>
+                <img src="Assets/Imagens/HTML_Obs_aspasSimples_Duplas.png" alt="exemplos de utilização de aspas simples e duplas.">
+        <h3>Comentários em HTML</h3>
+            <p>Um comentário atribui informações sobre um elemento ou vários. Pode ser adicionado em qualquer lugar do código (HTML), utilizando <!-- xxxxxxxxxxxxx --></p>
+                <img src="Assets/Imagens/HTML_Comentarios.png" alt="exemplo de utilização de elemento para comentários">
+    
+    <h2>2 - Linguagem CSS</h2>
+        <h3>Definição de CSS</h3>
+            <p>O CSS (Cascading Style Sheets) significa folhas de estilo em cascata. É a linguagem utilizada para estilizar um documento HTML, descrevendo como os elementos devem ser exibidos. A estilização inclui design, layout, e variações de exibição para diferentes dispositivos e tamanhos de telas.</p>
+            <p>O CSS pode controlar o layout de várias páginas da web de uma só vez. Pode também ser utilizadas várias folhas de estilo para estilizar uma página HTML. São armazenadas em arquivo com extensão CSS.</p>
+               <img src="Assets/Imagens/CSS_exemplo.png" alt="exemplo de folha de estilo.">
+        <h3>Importância do CSS</h3>
+            <p>O HTML nunca foi planejado para conter tags para formatas uma página web, mas sim para descrever seu conteúdo. Quando lhe foram adicionadas tags e atributos de configuração, os desenvolvedores web tiveram grande dificuldades e o processo tornou-se caro e demorado.</p>
+            <p>O CSS veio para solucionar esse problema. Criado pela World Wide Web Consortium (W3C), assumiu o papel de formatação da página HTML.</p>
+            <p>Com isso, um arquivo de folha de estilo externo pode alterar a aparência de um site inteiro, alterando apenas um arquivo.</p>
+        <h3>Sintaxe CSS</h3>
+            <p>Uma regra CSS consiste em um seletor e um bloco de declaração.</p>
+              <img src="Assets/Imagens/CSS_seletor_blocos.png" alt="exemplo da estrutura, com seletor e bloco de declaração.">
+            <p>O seletor aponta para o elemento HTML a ser estillizado.</p>
+            <p>O bloco de declaração contém uma ou mais declarações separadas por ponto e vírgula.</p>
+            <p>Cada declaração inclui um nome de propriedade CSS e um valor, separados por dois pontos.</p>
+            <p>Múltiplas declarações CSS são separadas por ponto e vírgula e os blocos de declaração são cercados por chaves.</p>
+            <img src="Assets/Imagens/CSS_seletor_blocos_Exemplo.png" alt="exemplo de seletor com multpllicas declarações.">
+        <h3>Seletores CSS</h3>
+            <p>Os seletores CSS encontram (selecionam) os elementos HTML a serem estilizados, podendo ser divididos em cinco categorias:</p>
+            <p>1- Seletores simples (selecione elementos com base no nome, id, classe)</p>
+                <img src="Assets/Imagens/CSS_seletorSimples_Exemplo.png" alt="exemplos de seletores simples para: tag, id e class.">
+            <p>2- Seletores combinadores (selecionam elementos com base em um relacionamento específico entre eles)</p>
+            <p>3- Seletores de pseudoclasse (selecionam elementos com base em um determinado estado)</p>
+            <p>4- Seletores de pseudoelementos (selecionam e estilizam uma parte de um elemento)</p>
+            <p>5- Seletores de atributos (selecionam elementos com base em um atributo ou valor de atributo)</p>
+        <h3>Como adicionar CSS</h3>
+            <p>Um navegador formata o documento HTML de acordo com as informações contidas na folha de estilos.</p>
+            <p>Existem três maneiras de inserir CSS: externo, interno, embutido.</p>
+        <h3>CSS externo</h3>
+            <p>Uma folha de estilos externa pode alterar a aparência de um site inteiro, alterando apenas um arquivo. Cada página deve incluir uma referência ao arquivo de folha de estilo externo dentro do elemento < link >, na seção head.</p>
+                <img src="Assets/Imagens/CSS_folhaEstilo_externa.png" alt="exemplo de vinculação de folha de estilo externa.">
+            <p>A folha de estilo externa pode ser escrita em qualquer editor de texto e deve ser salva com extensão .css e não deve conter tags HTML.</p>
+        <h3>CSS interno</h3>
+            <p>Uma folha de estilo interna pode ser usada se uma única página HTML tiver um estilo único. É definido dentro do elemento <stile>, dentro da seção head, no HTML.</p>
+                <img src="Assets/Imagens/CSS_vincular_folhaEstilo_interna.png" alt="exemplo de folha de estilo interna.">
+        <h3>CSS embutido</h3>
+            <p>Um estilo embutido pode ser usado para aplicar um estilo exclusivo a um único elemento.
+                Para usar estilos embutidos, adicione o atributo style ao elemento relevante. O atributo style pode conter qualquer propriedade CSS.</p>
+                <img src="Assets/Imagens/CSS_Estilo_embutido.png" alt="exemplo de estilo embutido.">
+        <h3>Ordem de estilos</h3>
+            <p>O estilo embutido tem a prioridade mais alta e substituirá os estilos externos e internos, que vem em seguida, e os padrões do navegador, que vem por último na prioridade.</p>
+        <h3>Comentários CSS</h3>
+            <p>Comentários são usados para explicar o código e podem ajudar quando você editar o código-fonte posteriormente. Eles são ignorados pelos navegadores.</p>
+                <img src="Assets/Imagens/CSS_comentarios.png" alt="exemplo de comentário no CSS.">
+            <p>Um comentário CSS é colocado dentro do < style > elemento e começa com  /* e termina com */, em qualquer lugar do código (CSS) e pode abranger várias linhas.</p>
+    </div>
+            <h4>Fonte:</h4>
+                <p>  https://www.w3schools.com/html/default.asp</p>
+                <p>  https://www.w3schools.com/css/default.asp</p>
+
+</body>
+</html>
